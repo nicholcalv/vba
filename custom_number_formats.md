@@ -6,7 +6,7 @@
 | **1dp/k**    | `#,##0.0,"k"`       | One decimal place, in thousands  |
 | **FX 4dp**   | `#,##0.0000`        | Four decimal places for FX rates |
 
-Sub Format_0dp()
+```Sub Format_0dp()
     Selection.NumberFormat = "#,##0"
 End Sub
 
@@ -24,4 +24,4 @@ End Sub
 
 Sub Format_FX4dp()
     Selection.NumberFormat = "#,##0.0000"
-End Sub
+End Sub```
