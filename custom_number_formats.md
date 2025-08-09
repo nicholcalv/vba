@@ -6,6 +6,7 @@
 | **1dp/k**    | `#,##0.0,"k"`       | One decimal place, in thousands  |
 | **FX 4dp**   | `#,##0.0000`        | Four decimal places for FX rates |
 
+# VBA code
 ```Sub Format_0dp()
     Selection.NumberFormat = "#,##0"
 End Sub
